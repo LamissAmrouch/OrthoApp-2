@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F8C749E-03F9-4530-8FBD-D69E4C06F17C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App2</RootNamespace>
+    <AssemblyName>App2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window10.xaml.cs">
+      <DependentUpon>Window10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window11.xaml.cs">
+      <DependentUpon>Window11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window12.xaml.cs">
+      <DependentUpon>Window12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window13.xaml.cs">
+      <DependentUpon>Window13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window14.xaml.cs">
+      <DependentUpon>Window14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window15.xaml.cs">
+      <DependentUpon>Window15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window16.xaml.cs">
+      <DependentUpon>Window16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window17.xaml.cs">
+      <DependentUpon>Window17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window18.xaml.cs">
+      <DependentUpon>Window18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window19.xaml.cs">
+      <DependentUpon>Window19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window2.xaml.cs">
+      <DependentUpon>Window2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window20.xaml.cs">
+      <DependentUpon>Window20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window21.xaml.cs">
+      <DependentUpon>Window21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window22.xaml.cs">
+      <DependentUpon>Window22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window23.xaml.cs">
+      <DependentUpon>Window23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window24.xaml.cs">
+      <DependentUpon>Window24.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window3.xaml.cs">
+      <DependentUpon>Window3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4.xaml.cs">
+      <DependentUpon>Window4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window5.xaml.cs">
+      <DependentUpon>Window5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window6.xaml.cs">
+      <DependentUpon>Window6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window7.xaml.cs">
+      <DependentUpon>Window7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window8.xaml.cs">
+      <DependentUpon>Window8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window9.xaml.cs">
+      <DependentUpon>Window9.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window21.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window24.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow %281%29.png" />
+    <Resource Include="Images\arrow.png" />
+    <Resource Include="Images\checked.png" />
+    <Resource Include="Images\home %281%29.png" />
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\left-arrow.png" />
+    <Resource Include="Images\right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Quitter.png" />
+    <Resource Include="Images\QuitterC.png" />
+    <Resource Include="Images\retour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\retour - Copier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Back1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Back2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\QuitterC - Copier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Back5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\formes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\legumes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coleurs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\apple1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\apppple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ball.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\apple111 - Copie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\carrot2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\farme %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Arrow - Copie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Arrow - Vert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\sheep %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\volume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\homeJaune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\audio-speaker-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\home2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\002-arrows-5.png" />
+    <Resource Include="Images\Background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\shape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bird.png" />
+    <Resource Include="Images\dog.png" />
+    <Resource Include="Images\rabbit.png" />
+    <Resource Include="Images\snail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Egg-PNG-Picture-180x180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\camel.png" />
+    <Resource Include="Images\donkey.png" />
+    <Resource Include="Images\fish.png" />
+    <Resource Include="Images\horse.png" />
+    <Resource Include="Images\lion.png" />
+    <Resource Include="Images\sheep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\QuitterCBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\QuitterButtonJaune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fruitsVert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animauxvert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\formesvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\couleurs2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\couleurs1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coleurs3vert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\coleurs4vert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrowjaune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cat2.png" />
+    <Resource Include="Images\chicken2.png" />
+    <Resource Include="Images\cow2.png" />
+    <Resource Include="Images\dog2.png" />
+    <Resource Include="Images\fish2.png" />
+    <Resource Include="Images\lion2.png" />
+    <Resource Include="Images\rabbit2.png" />
+    <Resource Include="Images\sheep2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\apricot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\apple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\banana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cerise.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\grape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\lemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\peache.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\strawberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fruits\apple.png" />
+    <Resource Include="Images\fruits\apricot.png" />
+    <Resource Include="Images\fruits\banana.png" />
+    <Resource Include="Images\fruits\cerise.jpg" />
+    <Resource Include="Images\fruits\grape.png" />
+    <Resource Include="Images\fruits\lemon.png" />
+    <Resource Include="Images\fruits\orange.png" />
+    <Resource Include="Images\fruits\peache.png" />
+    <Resource Include="Images\fruits\pear.png" />
+    <Resource Include="Images\fruits\strawberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\formes\caree.png" />
+    <Resource Include="Images\formes\circle.png" />
+    <Resource Include="Images\formes\rectangle.png" />
+    <Resource Include="Images\formes\star2.png" />
+    <Resource Include="Images\formes\triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\legumes\aubergine.png" />
+    <Resource Include="Images\legumes\carrot.png" />
+    <Resource Include="Images\legumes\cucumber.png" />
+    <Resource Include="Images\legumes\gralic.png" />
+    <Resource Include="Images\legumes\onion.png" />
+    <Resource Include="Images\legumes\potato.png" />
+    <Resource Include="Images\legumes\salade.png" />
+    <Resource Include="Images\legumes\tomate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\couleurs\blue.png" />
+    <Resource Include="Images\couleurs\gris.png" />
+    <Resource Include="Images\couleurs\jaune.jpg" />
+    <Resource Include="Images\couleurs\marron.png" />
+    <Resource Include="Images\couleurs\mauve.png" />
+    <Resource Include="Images\couleurs\noir.png" />
+    <Resource Include="Images\couleurs\orange.png" />
+    <Resource Include="Images\couleurs\rose.png" />
+    <Resource Include="Images\couleurs\rouge.png" />
+    <Resource Include="Images\couleurs\vert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\legumes\poivre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bee.png" />
+    <Resource Include="Images\fourmi.png" />
+    <Resource Include="Images\horse2.png" />
+    <Resource Include="Images\papillon.png" />
+    <Resource Include="Images\snail2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\choses\arbre.jpg" />
+    <Resource Include="Images\choses\armoire.jpg" />
+    <Resource Include="Images\choses\assiette.jpg" />
+    <Resource Include="Images\choses\ballon.jpg" />
+    <Resource Include="Images\choses\chaise.jpg" />
+    <Resource Include="Images\choses\chapeau.jpg" />
+    <Resource Include="Images\choses\chaussure.jpg" />
+    <Resource Include="Images\choses\computer.png" />
+    <Resource Include="Images\choses\couteau.jpg" />
+    <Resource Include="Images\choses\cuilliere.jpg" />
+    <Resource Include="Images\choses\fourchette.jpg" />
+    <Resource Include="Images\choses\gason.jpg" />
+    <Resource Include="Images\choses\lit.jpg" />
+    <Resource Include="Images\choses\lune.jpg" />
+    <Resource Include="Images\choses\pantallon.jpg" />
+    <Resource Include="Images\choses\portable.jpg" />
+    <Resource Include="Images\choses\rose.jpg" />
+    <Resource Include="Images\choses\soleil.png" />
+    <Resource Include="Images\choses\table.jpg" />
+    <Resource Include="Images\choses\tele.jpg" />
+    <Resource Include="Images\choses\tricot.jpg" />
+    <Resource Include="Images\choses\bouteille.jpg" />
+    <Resource Include="Images\choses\verre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\11.png" />
+    <Resource Include="Images\brain6.png" />
+    <Resource Include="Images\Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\animauxvert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\bee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\bird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\camel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\cat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\chicken2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\cow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\cow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\dog2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\donkey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\fish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\fish2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\fourmi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\horse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\horse2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\lion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\lion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\papillon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\rabbit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\rabbit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\sheep %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\sheep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\sheep2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\snail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\animaux\snail2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\False.png" />
+    <Resource Include="Images\True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\brainstorm.png" />
+    <Resource Include="Images\gift.png" />
+    <Resource Include="Images\cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\colorgreen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\legumes_vert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\milieu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\téléchargement %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\videosimg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\sens %281%29.jpg" />
+    <Resource Include="Images\sens %282%29.jpg" />
+    <Resource Include="Images\sens2.jpg" />
+    <Resource Include="Images\videosactions %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\imagege.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\corps.jpg" />
+    <Resource Include="Images\corps2.jpg" />
+    <Resource Include="Images\actions\asseoir.jpg" />
+    <Resource Include="Images\actions\boire.jpg" />
+    <Resource Include="Images\actions\boire2.jpg" />
+    <Resource Include="Images\actions\boire3.jpg" />
+    <Resource Include="Images\actions\chante.jpg" />
+    <Resource Include="Images\actions\chante2.jpg" />
+    <Resource Include="Images\actions\chante3.jpg" />
+    <Resource Include="Images\actions\colorier.jpg" />
+    <Resource Include="Images\actions\conduire.jpg" />
+    <Resource Include="Images\actions\conduire2.jpg" />
+    <Resource Include="Images\actions\courir.jpg" />
+    <Resource Include="Images\actions\courir2.jpg" />
+    <Resource Include="Images\actions\danser.jpg" />
+    <Resource Include="Images\actions\danser2.jpg" />
+    <Resource Include="Images\actions\debout.jpg" />
+    <Resource Include="Images\actions\descend.jpg" />
+    <Resource Include="Images\actions\dessiner.jpg" />
+    <Resource Include="Images\actions\dessiner2.jpg" />
+    <Resource Include="Images\actions\dormir.jpg" />
+    <Resource Include="Images\actions\dormir2.jpg" />
+    <Resource Include="Images\actions\dormir3.jpg" />
+    <Resource Include="Images\actions\dormir4.jpg" />
+    <Resource Include="Images\actions\ecrire.jpg" />
+    <Resource Include="Images\actions\ecrire2.jpg" />
+    <Resource Include="Images\actions\ecrire3.jpg" />
+    <Resource Include="Images\actions\habiller.jpg" />
+    <Resource Include="Images\actions\habiller2.jpg" />
+    <Resource Include="Images\actions\imagege.jpg" />
+    <Resource Include="Images\actions\images %281%29.jpg" />
+    <Resource Include="Images\actions\images.jpg" />
+    <Content Include="Images\actions\imgres.html" />
+    <Resource Include="Images\actions\jouer.jpg" />
+    <Resource Include="Images\actions\jouer2.jpg" />
+    <Resource Include="Images\actions\jouer3.jpg" />
+    <Resource Include="Images\actions\jouer4.jpg" />
+    <Resource Include="Images\actions\jpuer5.jpg" />
+    <Resource Include="Images\actions\lire.jpg" />
+    <Resource Include="Images\actions\lire2.jpg" />
+    <Resource Include="Images\actions\lire3.jpg" />
+    <Resource Include="Images\actions\lire4.jpg" />
+    <Resource Include="Images\actions\manger.jpg" />
+    <Resource Include="Images\actions\manger2.jpg" />
+    <Resource Include="Images\actions\manger3.jpg" />
+    <Resource Include="Images\actions\marche.jpg" />
+    <Resource Include="Images\actions\marhce3.jpg" />
+    <Resource Include="Images\actions\monter.jpg" />
+    <Resource Include="Images\actions\monter2.jpg" />
+    <Resource Include="Images\actions\pleure.jpg" />
+    <Resource Include="Images\actions\pleure2.jpg" />
+    <Resource Include="Images\actions\pleure3.jpg" />
+    <Resource Include="Images\actions\rire.jpg" />
+    <Resource Include="Images\actions\rire2.jpg" />
+    <Resource Include="Images\actions\rireé.jpg" />
+    <Resource Include="Images\actions\s%27asseoir2.jpg" />
+    <Resource Include="Images\actions\saute.jpg" />
+    <Resource Include="Images\actions\saute2.jpg" />
+    <Resource Include="Images\actions\saute3.jpg" />
+    <Resource Include="Images\actions\sens %281%29.jpg" />
+    <Resource Include="Images\actions\sens %282%29.jpg" />
+    <Resource Include="Images\actions\sens2.jpg" />
+    <Resource Include="Images\actions\téléchargement %281%29.jpg" />
+    <Resource Include="Images\actions\téléchargement %282%29.jpg" />
+    <Resource Include="Images\actions\téléchargement %283%29.jpg" />
+    <Resource Include="Images\actions\téléchargement %284%29.jpg" />
+    <Resource Include="Images\actions\téléchargement.jpg" />
+    <Resource Include="Images\actions\videosactions %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

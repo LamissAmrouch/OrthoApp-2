@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestFinal>
+  <DebutQuestionsFaites>1</DebutQuestionsFaites>
+  <TotalQuestion>10</TotalQuestion>
+  
+
+<Probleme1>  
+    <Prop1>aubergine.PNG</Prop1>
+    <Prop2>carrot.PNG</Prop2>
+    <Prop3>cucumber.PNG</Prop3>
+       <R>2</R>  
+ </Probleme1> 
+
+
+  <Probleme2>
+    <Prop1>onion.PNG</Prop1>
+    <Prop2>gralic.PNG</Prop2>
+    <Prop3>poivre.PNG</Prop3>
+      <R>1</R>
+  </Probleme2> 
+
+  <Probleme3>
+    <Prop1>salade.PNG</Prop1>
+    <Prop2>potato.PNG</Prop2>
+    <Prop3>carrot.PNG</Prop3>
+    <R>2</R>
+  </Probleme3>
+
+  <Probleme4>
+    <Prop1>cucumber.PNG</Prop1>
+    <Prop2>tomate.PNG</Prop2>
+    <Prop3>poivre.PNG</Prop3>
+   <R>3</R>
+  </Probleme4> 
+
+  <Probleme5>
+    <Prop1>aubergine.PNG</Prop1>
+    <Prop2>gralic.PNG</Prop2>
+    <Prop3>salade.PNG</Prop3>
+    <R>2</R> 
+  </Probleme5> 
+
+  <Probleme6>
+    <Prop1>onion.PNG</Prop1>
+    <Prop2>potato.PNG</Prop2>
+   <Prop3>tomate.PNG</Prop3>
+    <R>3</R>
+  </Probleme6>
+
+  <Probleme7>
+    <Prop1>noir.PNG</Prop1>
+    <Prop2>blue.PNG</Prop2>
+    <Prop3>rouge.PNG</Prop3>
+    <R>2</R>  
+  </Probleme7> 
+
+
+  <Probleme8>
+    <Prop1>vert.PNG</Prop1>
+    <Prop2>rose.PNG</Prop2>
+   <Prop3>gris.PNG</Prop3>
+    <R>3</R>    
+  </Probleme8> 
+
+
+  <Probleme9>
+    <Prop1>orange.PNG</Prop1>
+    <Prop2>vert.PNG</Prop2>
+   <Prop3>gris.PNG</Prop3>
+    <R>2</R>
+  </Probleme9>
+
+  <Probleme10>
+    <Prop1>blue.PNG</Prop1>
+    <Prop2>jaune.PNG</Prop2>
+    <Prop3>noir.PNG</Prop3>
+    <R>3</R>  
+  </Probleme10>
+
+  
+
+
+</TestFinal>

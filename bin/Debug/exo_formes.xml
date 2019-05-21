@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestFinal>
+  <DebutQuestionsFaites>1</DebutQuestionsFaites>
+  <TotalQuestion>10</TotalQuestion>
+  
+
+<Probleme1>  
+    <Prop1>triangle.PNG</Prop1>
+    <Prop2>circle.PNG</Prop2>
+    <Prop3>caree.PNG</Prop3>
+       <R>1</R>  
+ </Probleme1> 
+
+
+  <Probleme2>
+    <Prop1>rectangle.PNG</Prop1>
+    <Prop2>star2.PNG</Prop2>
+    <Prop3>circle.PNG</Prop3>
+      <R>2</R>
+  </Probleme2> 
+
+  <Probleme3>
+    <Prop1>triangle.PNG</Prop1>
+    <Prop2>rectangle.PNG</Prop2>
+    <Prop3>caree.PNG</Prop3>
+    <R>3</R>
+  </Probleme3>
+
+  <Probleme4>
+    <Prop1>caree.PNG</Prop1>
+    <Prop2>circle.PNG</Prop2>
+    <Prop3>star2.PNG</Prop3>
+   <R>2</R>
+  </Probleme4> 
+
+  <Probleme5>
+    <Prop1>star2.PNG</Prop1>
+    <Prop2>triangle.PNG</Prop2>
+    <Prop3>rectangle.PNG</Prop3>
+    <R>3</R> 
+  </Probleme5> 
+
+  <Probleme6>
+    <Prop1>marron.PNG</Prop1>
+    <Prop2>rouge.PNG</Prop2>
+   <Prop3>jaune.PNG</Prop3>
+    <R>1</R>
+  </Probleme6>
+
+  <Probleme7>
+    <Prop1>noir.PNG</Prop1>
+    <Prop2>blue.PNG</Prop2>
+    <Prop3>rouge.PNG</Prop3>
+    <R>2</R>  
+  </Probleme7> 
+
+
+  <Probleme8>
+    <Prop1>vert.PNG</Prop1>
+    <Prop2>rose.PNG</Prop2>
+   <Prop3>gris.PNG</Prop3>
+    <R>3</R>    
+  </Probleme8> 
+
+
+  <Probleme9>
+    <Prop1>orange.PNG</Prop1>
+    <Prop2>vert.PNG</Prop2>
+   <Prop3>gris.PNG</Prop3>
+    <R>2</R>
+  </Probleme9>
+
+  <Probleme10>
+    <Prop1>blue.PNG</Prop1>
+    <Prop2>jaune.PNG</Prop2>
+    <Prop3>noir.PNG</Prop3>
+    <R>3</R>  
+  </Probleme10>
+
+  
+
+
+</TestFinal>

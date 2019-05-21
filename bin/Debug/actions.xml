@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestFinal>
+  <DebutQuestionsFaites>1</DebutQuestionsFaites>
+  <TotalQuestion>35</TotalQuestion>
+  
+<Probleme1>
+    <Q></Q>   
+    <Prop1>manger.JPG</Prop1>
+    <Prop2>يأكل</Prop2>
+    <Prop3></Prop3>
+       <R>2</R>  
+ </Probleme1> 
+
+
+  <Probleme2>
+    <Q></Q>
+    <Prop1>manger3.JPG</Prop1>
+    <Prop2>يأكل</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme2> 
+
+  <Probleme3>
+    <Q></Q>
+    <Prop1>boire.JPG</Prop1>
+    <Prop2>يشرب</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+  </Probleme3>
+
+  <Probleme4>
+    <Q></Q>
+    <Prop1>boire3.JPG</Prop1>
+    <Prop2>يشرب</Prop2>
+    <Prop3></Prop3>
+   <R>2</R>
+  </Probleme4> 
+
+  <Probleme5>
+    <Q></Q>
+    <Prop1>dormir.JPG</Prop1>
+    <Prop2>ينام</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   
+  </Probleme5> 
+
+  <Probleme6>
+    <Q></Q>
+    <Prop1>dormir2.JPG</Prop1>
+    <Prop2>ينام</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+    
+  </Probleme6>
+
+  <Probleme7>
+    <Q></Q>
+    <Prop1>jouer.JPG</Prop1>
+    <Prop2>يلعب</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+    
+  </Probleme7> 
+
+
+  <Probleme8>
+    <Q></Q>
+    <Prop1>jouer3.JPG</Prop1>
+    <Prop2>يلعب</Prop2>
+   <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme8> 
+
+
+  <Probleme9>
+    <Q></Q>
+    <Prop1>ecrire.JPG</Prop1>
+    <Prop2>يكتب</Prop2>
+   <Prop3></Prop3>
+    <R>1</R>
+   
+  </Probleme9>
+
+  <Probleme10>
+    <Q></Q>
+    <Prop1>ecrire3.JPG</Prop1>
+    <Prop2>يكتب</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme10>
+
+  <Probleme11>
+    <Q></Q> 
+   <Prop1>lire.JPG</Prop1>
+    <Prop2>يقرأ</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme11>
+ 
+
+<Probleme12>
+    <Q></Q>
+    <Prop1>lire3.JPG</Prop1>
+    <Prop2>يقرأ</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme12> 
+
+
+  <Probleme13>
+    <Q></Q>
+    <Prop1>debout.JPG</Prop1>
+    <Prop2>يقف</Prop2>
+   <Prop3></Prop3>
+    <R>2</R>
+ </Probleme13>
+
+  <Probleme14>
+    <Q></Q>
+    <Prop1>asseoir.JPG</Prop1>
+    <Prop2>يجلس</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme14> 
+
+ <Probleme15>
+    <Q></Q>
+    <Prop1>marche.JPG</Prop1>
+    <Prop2>يمشي</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+</Probleme15>  
+
+
+<Probleme16>
+    <Q></Q>
+    <Prop1>courir.JPG</Prop1>
+    <Prop2>يجري</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme16>  
+
+<Probleme17>
+    <Q></Q>
+    <Prop1>courir2.JPG</Prop1>
+  <Prop2>يجري</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+   </Probleme17> 
+
+
+<Probleme18>
+    <Q></Q>
+    <Prop1>pleure.JPG</Prop1>
+    <Prop2>يبكي</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme18>  
+
+
+<Probleme19>
+    <Q></Q>
+    <Prop1>pleure2.JPG</Prop1>
+   <Prop2>يبكي</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+   </Probleme19> 
+
+
+<Probleme20>
+    <Q></Q>
+    <Prop1>rire2.JPG</Prop1>
+    <Prop2>يضحك</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme20> 
+
+
+<Probleme21>
+    <Q></Q>
+    <Prop1>rireé.JPG</Prop1>
+ <Prop2>يضحك</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+   </Probleme21>  
+
+
+<Probleme22>
+    <Q></Q>
+    <Prop1>chante.JPG</Prop1>
+    <Prop2>يغني</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme22> 
+
+<Probleme23>
+    <Q></Q>
+    <Prop1>chante2.JPG</Prop1>
+    <Prop2>يغني</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme23> 
+
+
+<Probleme24>
+    <Q></Q>
+    <Prop1>danser.JPG</Prop1>
+    <Prop2>يرقص</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme24> 
+
+<Probleme25>
+    <Q></Q>
+    <Prop1>danser2.JPG</Prop1>
+     <Prop2>يرقص</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme25> 
+
+<Probleme26>
+    <Q></Q>
+    <Prop1>habiller.JPG</Prop1>
+    <Prop2>يلبس</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme26> 
+
+<Probleme27>
+    <Q></Q>
+    <Prop1>habiller2.JPG</Prop1>
+     <Prop2>يلبس</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme27> 
+
+<Probleme28>
+    <Q></Q>
+    <Prop1>saute.JPG</Prop1>
+    <Prop2>يقفز</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme28> 
+
+<Probleme29>
+    <Q></Q>
+    <Prop1>saute2.JPG</Prop1>
+    <Prop2>يقفز</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme29> 
+
+<Probleme30>
+    <Q></Q>
+    <Prop1>conduire.JPG</Prop1>
+    <Prop2>يسوق</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme30> 
+
+<Probleme30>
+    <Q></Q>
+    <Prop1>conduire2.JPG</Prop1>
+     <Prop2>يسوق</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme30>
+
+<Probleme31>
+    <Q></Q>
+    <Prop1>monter.JPG</Prop1>
+    <Prop2>يصعد</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme31>
+
+<Probleme32>
+    <Q></Q>
+    <Prop1>monter2.JPG</Prop1>
+     <Prop2>يصعد</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme32>
+
+<Probleme33>
+    <Q></Q>
+    <Prop1>descend.JPG</Prop1>
+    <Prop2>ينزل</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme33>
+
+<Probleme34>
+    <Q></Q>
+    <Prop1>dessiner.JPG</Prop1>
+    <Prop2>يرسم</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme34>
+
+<Probleme35>
+    <Q></Q>
+    <Prop1>dessiner2.JPG</Prop1>
+    <Prop2>يلون</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme35>
+
+
+</TestFinal>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestFinal>
+  <DebutQuestionsFaites>1</DebutQuestionsFaites>
+  <TotalQuestion>22</TotalQuestion>
+  
+<Probleme1>
+    <Q></Q>   
+    <Prop1>cat.PNG</Prop1>
+    <Prop2>قط</Prop2>
+    <Prop3></Prop3>
+       <R>2</R>  
+ </Probleme1> 
+
+
+  <Probleme2>
+    <Q></Q>
+    <Prop1>bird.PNG</Prop1>
+    <Prop2>عصفور</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme2> 
+
+  <Probleme3>
+    <Q></Q>
+    <Prop1>chicken.PNG</Prop1>
+    <Prop2>دجاجة</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+  </Probleme3>
+
+  <Probleme4>
+    <Q></Q>
+    <Prop1>dog.PNG</Prop1>
+    <Prop2>كلب</Prop2>
+    <Prop3></Prop3>
+   <R>2</R>
+  </Probleme4> 
+
+  <Probleme5>
+    <Q></Q>
+    <Prop1>fish.PNG</Prop1>
+    <Prop2>سمكة</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   
+  </Probleme5> 
+
+  <Probleme6>
+    <Q></Q>
+    <Prop1>horse.PNG</Prop1>
+    <Prop2>حصان</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+    
+  </Probleme6>
+
+  <Probleme7>
+    <Q></Q>
+    <Prop1>rabbit.PNG</Prop1>
+    <Prop2>أرنب</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+    
+  </Probleme7> 
+
+
+  <Probleme8>
+    <Q></Q>
+    <Prop1>sheep.PNG</Prop1>
+    <Prop2>خروف</Prop2>
+   <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme8> 
+
+
+  <Probleme9>
+    <Q></Q>
+    <Prop1>camel.PNG</Prop1>
+    <Prop2>جمل</Prop2>
+   <Prop3></Prop3>
+    <R>1</R>
+   
+  </Probleme9>
+
+  <Probleme10>
+    <Q></Q>
+    <Prop1>snail.PNG</Prop1>
+    <Prop2>حلزون</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme10>
+
+  <Probleme11>
+    <Q></Q> 
+   <Prop1>lion.PNG</Prop1>
+    <Prop2>أسد</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme11>
+ 
+
+<Probleme12>
+    <Q></Q>
+    <Prop1>cow.PNG</Prop1>
+    <Prop2>بقرة</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme12> 
+
+
+  <Probleme13>
+    <Q></Q>
+    <Prop1>cat2.PNG</Prop1>
+    <Prop2>قط</Prop2>
+   <Prop3></Prop3>
+    <R>2</R>
+ </Probleme13>
+
+  <Probleme14>
+    <Q></Q>
+    <Prop1>fish2.PNG</Prop1>
+    <Prop2>سمكة</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme14> 
+
+ <Probleme15>
+    <Q></Q>
+    <Prop1>chicken2.PNG</Prop1>
+    <Prop2>دجاجة</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+</Probleme15>  
+
+
+<Probleme16>
+    <Q></Q>
+    <Prop1>lion2.PNG</Prop1>
+    <Prop2>أسد</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme16>  
+
+<Probleme17>
+    <Q></Q>
+    <Prop1>sheep2.PNG</Prop1>
+    <Prop2>خروف</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+   </Probleme17> 
+
+
+<Probleme18>
+    <Q></Q>
+    <Prop1>dog2.PNG</Prop1>
+    <Prop2>كلب</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme18>  
+
+
+<Probleme19>
+    <Q></Q>
+    <Prop1>rabbit2.PNG</Prop1>
+    <Prop2>أرنب</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+   </Probleme19> 
+
+
+<Probleme20>
+    <Q></Q>
+    <Prop1>cow2.PNG</Prop1>
+    <Prop2>بقرة</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme20> 
+
+
+<Probleme21>
+    <Q></Q>
+    <Prop1>horse2.PNG</Prop1>
+    <Prop2>حصان</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+   </Probleme21>  
+
+
+<Probleme22>
+    <Q></Q>
+    <Prop1>papillon.PNG</Prop1>
+    <Prop2>فراشة</Prop2>
+    <Prop3>z.PNG</Prop3>
+    <R>3</R>
+ </Probleme22> 
+
+
+<Probleme23>
+    <Q></Q>
+    <Prop1>bee.PNG</Prop1>
+    <Prop2>نحلة</Prop2>
+    <Prop3>z.PNG</Prop3>
+    <R>3</R>
+ </Probleme23> 
+
+  <Probleme24>
+    <Q></Q>
+    <Prop1>snail2.PNG</Prop1>
+    <Prop2>حلزون</Prop2>
+    <Prop3>z.PNG</Prop3>
+    <R>3</R>
+ </Probleme24>  
+
+<Probleme25>
+    <Q></Q>
+    <Prop1>fourmi.PNG</Prop1>
+    <Prop2>نملة </Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme25> 
+
+</TestFinal>

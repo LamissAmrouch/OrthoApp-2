@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestFinal>
+  <DebutQuestionsFaites>1</DebutQuestionsFaites>
+  <TotalQuestion>10</TotalQuestion>
+  
+<Probleme1>  
+    <Prop1>cat2.PNG</Prop1>
+    <Prop2>dog2.PNG</Prop2>
+    <Prop3>sheep2.PNG</Prop3>
+       <R>3</R>  
+ </Probleme1> 
+
+
+  <Probleme2>
+    <Prop1>cow2.PNG</Prop1>
+    <Prop2>horse2.PNG</Prop2>
+    <Prop3>lion2.PNG</Prop3>
+      <R>2</R>
+  </Probleme2> 
+
+  <Probleme3>
+    <Prop1>chicken2.PNG</Prop1>
+    <Prop2>rabbit2.PNG</Prop2>
+    <Prop3>cat2.PNG</Prop3>
+    <R>1</R>
+  </Probleme3>
+
+  <Probleme4>
+    <Prop1>fish2.PNG</Prop1>
+    <Prop2>papillon.PNG</Prop2>
+    <Prop3>snail2.PNG</Prop3>
+   <R>1</R>
+  </Probleme4> 
+
+  <Probleme5>
+    <Prop1>lion2.PNG</Prop1>
+    <Prop2>bee.PNG</Prop2>
+    <Prop3>cat2.PNG</Prop3>
+    <R>3</R> 
+  </Probleme5> 
+
+  <Probleme6>
+    <Prop1>bee.PNG</Prop1>
+    <Prop2>fourmi.PNG</Prop2>
+   <Prop3>papillon.PNG</Prop3>
+    <R>2</R>
+  </Probleme6>
+
+  <Probleme7>
+    <Prop1>rabbit2.PNG</Prop1>
+    <Prop2>dog2.PNG</Prop2>
+    <Prop3>horse2.PNG</Prop3>
+    <R>1</R>  
+  </Probleme7> 
+
+
+  <Probleme8>
+    <Prop1>bee.PNG</Prop1>
+    <Prop2>snail2.PNG</Prop2>
+   <Prop3>rabbit2.PNG</Prop3>
+    <R>1</R>    
+  </Probleme8> 
+
+
+  <Probleme9>
+    <Prop1>cow2.PNG</Prop1>
+    <Prop2>lion2.PNG</Prop2>
+   <Prop3>sheep2.PNG</Prop3>
+    <R>2</R>
+  </Probleme9>
+
+  <Probleme10>
+    <Prop1>sheep2.PNG</Prop1>
+    <Prop2>papillon.PNG</Prop2>
+    <Prop3>cat2.PNG</Prop3>
+    <R>2</R>  
+  </Probleme10>
+
+  
+
+
+</TestFinal>

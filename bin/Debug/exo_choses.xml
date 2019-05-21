@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestFinal>
+  <DebutQuestionsFaites>1</DebutQuestionsFaites>
+  <TotalQuestion>10</TotalQuestion>
+  
+
+<Probleme1>  
+    <Prop1>cuilliere.JPG</Prop1>
+    <Prop2>fourchette.JPG</Prop2>
+    <Prop3>couteau.JPG</Prop3>
+       <R>3</R>  
+ </Probleme1> 
+
+
+  <Probleme2>
+    <Prop1>arbre.JPG</Prop1>
+    <Prop2>rose.JPG</Prop2>
+    <Prop3>gason.JPG</Prop3>
+      <R>2</R>
+  </Probleme2> 
+
+  <Probleme3>
+    <Prop1>assiette.JPG</Prop1>
+    <Prop2>bouteille.JPG</Prop2>
+    <Prop3>verre.JPG</Prop3>
+    <R>3</R>
+  </Probleme3>
+
+  <Probleme4>
+    <Prop1>lune.JPG</Prop1>
+    <Prop2>soleil.PNG</Prop2>
+    <Prop3>ballon.JPG</Prop3>
+   <R>2</R>
+  </Probleme4> 
+
+  <Probleme5>
+    <Prop1>computer.PNG</Prop1>
+    <Prop2>portable.JPG</Prop2>
+    <Prop3>tele.JPG</Prop3>
+    <R>3</R> 
+  </Probleme5> 
+
+  <Probleme6>
+    <Prop1>chaussure.JPG</Prop1>
+    <Prop2>tricot.JPG</Prop2>
+   <Prop3>pantallon.JPG</Prop3>
+    <R>	3</R>
+  </Probleme6>
+
+  <Probleme7>
+    <Prop1>armoire.JPG</Prop1>
+    <Prop2>table.JPG</Prop2>
+    <Prop3>chaise.JPG</Prop3>
+    <R>2</R>  
+  </Probleme7> 
+
+
+  <Probleme8>
+    <Prop1>gason.JPG</Prop1>
+    <Prop2>chapeau.JPG</Prop2>
+   <Prop3>cuilliere.JPG</Prop3>
+    <R>2</R>    
+  </Probleme8> 
+
+
+  <Probleme9>
+    <Prop1>lit.JPG</Prop1>
+    <Prop2>rose.JPG</Prop2>
+   <Prop3>portable.JPG</Prop3>
+    <R>1</R>
+  </Probleme9>
+
+  <Probleme10>
+    <Prop1>bouteille.JPG</Prop1>
+    <Prop2>couteau.JPG</Prop2>
+    <Prop3>ballon.JPG</Prop3>
+    <R>3</R>  
+  </Probleme10>
+
+  
+
+
+</TestFinal>

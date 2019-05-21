@@ -1,0 +1,206 @@
+﻿<Window x:Class="App2.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:App2"
+        mc:Ignorable="d"
+        Title="Window5" 
+        WindowStyle="none"
+        ResizeMode="NoResize"  
+        Height="650" Width="1100"  Background="#FF9FE08C" WindowState="Maximized" >
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <Style x:Key="ExitStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid Margin="-6,0,12,-22">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="13*"/>
+                                <ColumnDefinition Width="54*"/>
+                                <ColumnDefinition Width="16*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="Images_QuitterC_png" Grid.Column="1" HorizontalAlignment="Stretch" Margin="17.687,10,0,10" Source="Images/QuitterC.png" Stretch="Fill" Width="Auto"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true"/>
+                            <Trigger Property="IsMouseOver" Value="true"/>
+                            <Trigger Property="IsPressed" Value="true"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ExitStyle2" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid Margin="-14,0,12,-22">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="13*"/>
+                                <ColumnDefinition Width="54*"/>
+                                <ColumnDefinition Width="16*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="Images_QuitterButtonJaune_png" Grid.Column="1" HorizontalAlignment="Stretch" Margin="4,14,6,6" Source="Images/QuitterButtonJaune.png" Stretch="Fill" Width="Auto"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true"/>
+                            <Trigger Property="IsMouseOver" Value="true"/>
+                            <Trigger Property="IsPressed" Value="true"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid Margin="0,0,0,-10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="0*"/>
+                            </Grid.ColumnDefinitions>
+                            <Rectangle Fill="#FFEAE131" Margin="10,0,40,0" RadiusY="32.5" RadiusX="32.5" Stroke="#FF5C994A" StrokeThickness="5"/>
+                            <TextBlock x:Name="textBlock" Margin="28,18,52,8" TextWrapping="Wrap" FontSize="36" FontFamily="El Messiri" TextAlignment="Center" Height="Auto" Width="Auto" Foreground="Black"><Run Text="أكتشف"/><Run Text=" "/></TextBlock>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true"/>
+                            <Trigger Property="IsMouseOver" Value="true"/>
+                            <Trigger Property="IsPressed" Value="true"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ButtonStyle5" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid Margin="0,0,0,-10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="0*"/>
+                            </Grid.ColumnDefinitions>
+                            <Rectangle Fill="#FFEAE131" Margin="40,0" RadiusY="32.5" RadiusX="32.5" Stroke="#FF5C994A" StrokeThickness="5"/>
+                            <TextBlock x:Name="textBlock" Margin="40,14,40,6" TextWrapping="Wrap" FontSize="36" FontFamily="El Messiri" TextAlignment="Center"><Run FlowDirection="RightToLeft" Text="أتمرن"/></TextBlock>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true"/>
+                            <Trigger Property="IsMouseOver" Value="true"/>
+                            <Trigger Property="IsPressed" Value="true"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ButtonStyle4" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Image x:Name="Images_home2_png" Margin="10,10,10,0" Source="Images/home2.png" Stretch="Fill"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true"/>
+                            <Trigger Property="IsMouseOver" Value="true"/>
+                            <Trigger Property="IsPressed" Value="true"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="236*"/>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="44*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="51*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="93*"/>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="42*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FF5C994A" Stroke="#FF123434" StrokeThickness="0" d:LayoutOverrides="LeftMargin, RightMargin" Margin="0,0,0,48.55" Grid.ColumnSpan="10" Grid.RowSpan="2"/>
+        <TextBlock x:Name="textBlock" Margin="12,10,90,48.55" TextWrapping="Wrap" FontFamily="El Messiri" FontSize="72" TextAlignment="Center" Foreground="White" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Button x:Name="Exit" Content="Button" Margin="-10,-10,-32,18" Style="{DynamicResource ExitStyle2}" Click="ExitClick" Grid.Column="9" ToolTip="خروج"/>
+        <TextBlock x:Name="textBlock_Copy" Margin="6,6,96,-49.45" TextWrapping="Wrap" FontFamily="El Messiri" FontSize="90" TextAlignment="Center" Foreground="Black" Grid.Column="5" Grid.ColumnSpan="3"><Run FlowDirection="RightToLeft" Text="ألواني"/></TextBlock>
+        <Button x:Name="decouvrir" Content="Button" Margin="-4,3,-38,14" Style="{DynamicResource ButtonStyle1}" Grid.Row="2" Grid.Column="4" Click="decouvrirClick" Grid.ColumnSpan="3"/>
+        <Button x:Name="exerser" Content="Button" Margin="-6,6,8,11" Style="{DynamicResource ButtonStyle5}" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="3" Click="exerserClick" Grid.RowSpan="2"/>
+        <Button x:Name="HomeBtn" Margin="-4,-10,10,12" Grid.Row="8" Style="{DynamicResource ButtonStyle4}" Click="HomeBtnClick" Grid.ColumnSpan="2" Grid.Column="1" ToolTip="القائمة الرئيسية">
+            <Image x:Name="Images_home2_png" Height="34" Source="Images/home2.png" Stretch="Fill" Width="66"/>
+        </Button>
+        <Image x:Name="Images_colorgreen_jpg" Grid.Column="6" Margin="12,8,10,6" Grid.Row="5" Source="Images/colorgreen.jpg" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+
+    </Grid>
+</Window>

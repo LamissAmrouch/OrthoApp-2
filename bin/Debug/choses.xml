@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestFinal>
+  <DebutQuestionsFaites>1</DebutQuestionsFaites>
+  <TotalQuestion>22</TotalQuestion>
+  
+<Probleme1>
+    <Q></Q>   
+    <Prop1>arbre.JPG</Prop1>
+    <Prop2>شجرة</Prop2>
+    <Prop3></Prop3>
+       <R>2</R>  
+ </Probleme1> 
+
+
+  <Probleme2>
+    <Q></Q>
+    <Prop1>rose.JPG</Prop1>
+    <Prop2>وردة</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme2> 
+
+  <Probleme3>
+    <Q></Q>
+    <Prop1>gason.JPG</Prop1>
+    <Prop2>عشب</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+  </Probleme3>
+
+  <Probleme4>
+    <Q></Q>
+    <Prop1>soleil.PNG</Prop1>
+    <Prop2>شمس</Prop2>
+    <Prop3></Prop3>
+   <R>2</R>
+  </Probleme4> 
+
+  <Probleme5>
+    <Q></Q>
+    <Prop1>lune.JPG</Prop1>
+    <Prop2>قمر</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   
+  </Probleme5> 
+
+  <Probleme6>
+    <Q></Q>
+    <Prop1>armoire.JPG</Prop1>
+    <Prop2>خزانة</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+    
+  </Probleme6>
+
+  <Probleme7>
+    <Q></Q>
+    <Prop1>table.JPG</Prop1>
+    <Prop2>طاولة</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+    
+  </Probleme7> 
+
+
+  <Probleme8>
+    <Q></Q>
+    <Prop1>chaise.JPG</Prop1>
+    <Prop2>كرسي</Prop2>
+   <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme8> 
+
+
+  <Probleme9>
+    <Q></Q>
+    <Prop1>lit.JPG</Prop1>
+    <Prop2>سرير</Prop2>
+   <Prop3></Prop3>
+    <R>1</R>
+   
+  </Probleme9>
+
+  <Probleme10>
+    <Q></Q>
+    <Prop1>tricot.JPG</Prop1>
+    <Prop2>قميص</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+    
+  </Probleme10>
+
+  <Probleme11>
+    <Q></Q> 
+   <Prop1>chaussure.JPG</Prop1>
+    <Prop2>حذاء</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme11>
+ 
+
+<Probleme12>
+    <Q></Q>
+    <Prop1>chapeau.JPG</Prop1>
+    <Prop2>قبعة</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme12> 
+
+
+  <Probleme13>
+    <Q></Q>
+    <Prop1>pantallon.JPG</Prop1>
+    <Prop2>سروال</Prop2>
+   <Prop3></Prop3>
+    <R>2</R>
+ </Probleme13>
+
+  <Probleme14>
+    <Q></Q>
+    <Prop1>tele.JPG</Prop1>
+    <Prop2>تلفاز</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme14> 
+
+ <Probleme15>
+    <Q></Q>
+    <Prop1>computer.PNG</Prop1>
+    <Prop2>حاسوب</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+</Probleme15>  
+
+
+<Probleme16>
+    <Q></Q>
+    <Prop1>portable.JPG</Prop1>
+    <Prop2>هاتف</Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+</Probleme16>  
+
+<Probleme17>
+    <Q></Q>
+    <Prop1>ballon.JPG</Prop1>
+    <Prop2>كرة</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+   </Probleme17> 
+
+
+<Probleme18>
+    <Q></Q>
+    <Prop1>verre.JPG</Prop1>
+    <Prop2>كأس</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme18>  
+
+
+<Probleme19>
+    <Q></Q>
+    <Prop1>assiette.JPG</Prop1>
+    <Prop2>  صحن </Prop2>
+    <Prop3></Prop3>
+    <R>2</R>
+   </Probleme19> 
+
+
+<Probleme20>
+    <Q></Q>
+    <Prop1>fourchette.JPG</Prop1>
+    <Prop2>شوكة</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+   </Probleme20> 
+
+
+<Probleme21>
+    <Q></Q>
+    <Prop1>couteau.JPG</Prop1>
+    <Prop2>سكين</Prop2>
+    <Prop3></Prop3>
+    <R>1</R>
+   </Probleme21>  
+
+
+<Probleme22>
+    <Q></Q>
+    <Prop1>cuilliere.JPG</Prop1>
+    <Prop2>ملعقة</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme22> 
+
+<Probleme23>
+    <Q></Q>
+    <Prop1>bouteille.JPG</Prop1>
+    <Prop2>قارورة</Prop2>
+    <Prop3></Prop3>
+    <R>3</R>
+ </Probleme23> 
+
+</TestFinal>
